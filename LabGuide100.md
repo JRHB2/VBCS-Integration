@@ -82,6 +82,11 @@ This lab will start with creating your first Web App in VBCS.
 
   <br>![](/images/lab100/100-11.png)<br>
   <br>
+  
+  You will be given the option to create a tabbed website or one without tabs. For now, just choose `None`. 
+  
+  <br>![](/images/lab100/100-12.png)<br>
+  <br>
 
   A blank page will open in the center, with a Components Bar to the left and a Customization Bar on the right.<br>
   
@@ -90,7 +95,7 @@ This lab will start with creating your first Web App in VBCS.
   
   Click on the `Design` view tab in the top right. Drag on an image component into the very top left corner of the page.<br>
   Click on it, then look on the right side go to the Data tab. Put in `https://png.icons8.com/color/1600/reflector-bulb.png` 
-  for the source url. This image will act as our website's logo.<br> 
+  for the source url. This image will act as our website's logo. Not that if you are using a url for your image source, the address must be secure https, rather than http.<br> 
   
   As it is, the image size is bigger than what we'd expect for our logo, so let's resize it. 
   
@@ -104,19 +109,17 @@ This lab will start with creating your first Web App in VBCS.
   Next, drag on a `Heading` component one column to the right of the logo. Under the `General` tab inside the `Text` field,   
   enter whatever name you'd like your website to be called.<br>
   
-  In the row below, drag over a tab bar. The tab bar defaults to three tabs, but we only need two for now. Hover over `Tab 3`   in the General tab, then hit the trash can icon. Rename the tabs `Home` and `Second Page`.<br>
-  
-  ![](/images/lab100/100-17.png)<br>
-  ![](/images/lab100/100-1-17.5.png)<br>
-  
   Drag and drop another Heading component, and fill in "Welcome to the Home page" for the text. While we're at it, let's customize the color of the text that we just entered. Click on the Heading, go to the `All` 
-  tab, then expand `General Attributes` and scroll down to the `Style` field. Enter in `color: #67aee5;`. 
-  
-  ![](/images/lab100/100-18.png)<br>
+  tab, then expand `General Attributes` and scroll down to the `Style` field. Enter in `color: #67aee5;`. <br>
   
   The heading color changes to a light blue, as shown below. This is an easy way to customize the CSS for a specific component. <br>
   
-  ![](/images/lab100/100-1-18.png)<br>
+  ![](/images/lab100/100-17.png)<br>
+  <br>
+  
+  Now, what we want to do is customize the bar that will show on every page. To do this we use something called the shell page. On the left, open up `Root Pages` and click on `shell`.
+  
+  ![](/images/lab100/100-18.png)<br>
   <br>
   
   In addition, we can also edit the HTML and CSS code directly. Near the top right, hit the `Code` view for the page. <br>
