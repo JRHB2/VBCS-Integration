@@ -150,7 +150,7 @@ This lab will start with creating your first Web App in VBCS.
 </style>
   ```
   
-  ![](/images/lab100/100-1-19.png)<br><br>
+  ![](/images/lab100/100-19.png)<br><br>
   
   In this way, you can code HTML and CSS for your web app the way you would for any website.<br>
   Back on the design tab, we can view changes we made to the tab bar. It is now a light minty green.<br>
