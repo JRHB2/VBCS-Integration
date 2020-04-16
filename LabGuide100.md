@@ -77,15 +77,15 @@ This lab will start with creating your first Web App in VBCS.
 
 <details>
   <summary>Customize Web App</summary>
-
+    <br>
   On the left, hit the computer icon for `Web Apps`, then the plus sign to create a new Web App. Name it, then hit `Create`. 
 
-  <br>![](/images/lab100/100-11.png)<br>
+  ![](/images/lab100/100-11.png)<br>
   <br>
   
   You will be given the option to create a tabbed website or one without tabs. For now, just choose `None`. 
   
-  <br>![](/images/lab100/100-12.png)<br>
+  ![](/images/lab100/100-12.png)<br>
   <br>
 
   A blank page will open in the center, with a Components Bar to the left and a Customization Bar on the right.<br>
@@ -99,11 +99,12 @@ This lab will start with creating your first Web App in VBCS.
   
   As it is, the image size is bigger than what we'd expect for our logo, so let's resize it. 
   
-  <br>![](/images/lab100/100-15.png)<br><br>
+  <br>![](/images/lab100/100-15.png)<br>
+  <br>
   
-  Go to the `General` tab and set the `width` property to 150. Now that the image is resized, it looks much more fitting to be   our website's logo.<br>
+  Go to the `General` tab and set the `width` property to 150. Now that the image is resized, it looks much more fitting to be   our website's logo.
   
-  ![](/images/lab100/100-16.png)<br>
+  <br>![](/images/lab100/100-16.png)<br>
   <br>
   
   Next, drag on a `Heading` component one column to the right of the logo. Under the `General` tab inside the `Text` field,   
@@ -122,33 +123,39 @@ This lab will start with creating your first Web App in VBCS.
   ![](/images/lab100/100-18.png)<br>
   <br>
   
+  Change the heading in the very top left to say something you'd like displayed on every page, like the website name, or just delete it entirely. Then drag an `Image` component to the left of the heading, put `https://img.icons8.com/cotton/2x/globe.png` for the source URL, and change the height to 25. 
+  
+  <br>![](/images/lab100/100-18a.png)<br>
+  <br>
+  
+  Now, look to the right side of the top bar. Delete the `Toolbar` compenent that contains the signed-in user's email address. Drag and drop a `Navigation List` component to the rightmost spot in the bar. A navigation list is essentially a more specific kind of tab bar. In the customization menu, change the `Edge` to `Top`.
+  
+  <br>![](/images/lab100/100-18b.png)<br>
+  <br>
+  
+  Now, go to the Data tab, hit the dropdown arrow that appears when you hover over `Selection`, expand Application -> System -> Current Page, and click `id`. This means that the selected tab will be the one whose key matches the page id. Under `Static List Items` change the labels Item 1, Item 2, and Item 3 to Main, Page 2, and Page 3. Change their keys from something like "li-1240221808-1" to main-start, page-2, and page-3.
+
+  <br>![](/images/lab100/100-18c.png)<br>
+  <br>
+  
   In addition, we can also edit the HTML and CSS code directly. Near the top right, hit the `Code` view for the page. <br>
   
   ![](/images/lab100/100-1-19.png)<br><br>
   
-  To customize the tab bar, we'll first define some style. Simply paste this at the top of the Code page.<br>
+  To customize the top bar, we'll define some style. Simply paste this at the very top of the Code page.<br>
   
   ```
-  <style>
-  .bright {
-  background-color: #4286f4;
-  border-style: groove;
+<style>
+  .oj-web-applayout-header {
+  background-color: #e6f5ef;
   }
-  .dull {
-  background-color: #7790ba;
-  border-style: groove;
-  }
-  </style>
+</style>
   ```
   
-  <br>
-  We will add this code to help style to our tabs. `.dull` shows the tab that we are currently on, and `.bright` shows the tabs we are not on.<br>
-
-  ![](/images/lab100/100-1-20.png)<br><br>
+  In this way, you can code HTML and CSS for your web app the way you would for any website.<br>
+  Back on the design tab, we can view changes we made to the tab bar. It is now a light minty green.<br>
   
-  Back on the design tab, we can view changes we made to the tab bar. As demonstrated, you can code HTML and CSS for your web   app the way you would for any website, while also having the option to change it in the Design view, giving you much greater flexibility.<br>
-  
-  ![](/images/lab100/100-1-21.png)<br>
+  ![](/images/lab100/100-20.png)<br>
   <br>
   
  </details>
